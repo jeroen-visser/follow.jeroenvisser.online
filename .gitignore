@@ -1,0 +1,6 @@
+/.ansible-vault-password
+/.kube
+/make/kubernetes.vars.mk
+/env/prod/.env
+/docker/app/.built
+/docker/app/.pushed
