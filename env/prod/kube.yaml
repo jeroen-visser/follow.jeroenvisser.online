@@ -62,7 +62,7 @@ spec:
     spec:
       containers:
         - name: wordpress
-          image: jvisser/follow.jeroenvisser.online-website:731a1f2
+          image: ${DOCKER_IMAGE_TAG}
           ports:
               - containerPort: 80
           envFrom:
